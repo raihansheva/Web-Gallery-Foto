@@ -1,0 +1,350 @@
+.kotak{
+    /* border: 1px black solid; */
+    height: calc(100vh - 72px);
+    /* display: flex; */
+}
+
+.judul{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.inputalbum{
+    width: 100%;
+    height: 50px;
+    font-size: 16;
+    outline: none;
+    border: none;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    background-color: #d8d8d873;
+    padding-left: 10px;
+}
+
+.namalabel{
+  padding-left: 20px;
+  /* font-weight: 600; */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.button{
+  width: 100%;
+  height: 40px;
+  border: none;
+  margin-top: 10px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  background-color: #aeda7f;
+  font-weight: 600;
+}
+
+.card2{
+  background-color: #ffffff41;
+}
+
+.card-atas{
+  width: 100%;
+  height: 25%;
+  /* border: 1px black solid; */
+}
+
+.card-tengah{
+  width: 100%;
+  height: 50%;
+  /*border: 1px black solid;
+  */background-color: #d8d8d8;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.card-bawah{
+  width: 100%;
+  height: 25%;
+  /* border: 1px black solid; */
+}
+
+.judul{
+  font-size: 26px;
+  font-weight: 600;
+  padding: 10px;
+}
+
+/* input file */
+.label {
+	display: block;
+	width: 100%;
+	/* max-width: 300px; */
+	margin: 0 auto;
+	background-color: rgb(172, 172, 172);
+	border-radius: 2px;
+	font-size: 1em;
+	line-height: 2.5em;
+	text-align: center;
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+.label:hover {
+	background-color: rgb(209, 209, 209);
+}
+
+.label:active {
+	background-color: mediumaquamarine;
+}
+
+.file {
+	border: 0;
+    clip: rect(1px, 1px, 1px, 1px);
+    height: 1px; 
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.btnpost{
+  width: 300px;
+  height: 40px;
+  border: none;
+  background-color: #aeda7f;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  
+}
+
+.img{
+  width: 100%;
+  height: 60%;
+  border: 1px black solid;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  align-items: center;
+}
+
+.desk{
+  height: 15%;
+  width: 100%;
+  background-color: #d8d8d873;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.judul2{
+  font-size: 16px;
+  margin: 6px;
+}
+
+.deskripsi{
+  font-size: 16px;
+  margin-top: 0px;
+  padding: 8px;
+}
+
+.inputalbumtxt{
+  width: 100%;
+  height: 150px;
+  font-size: 16;
+  outline: none;
+  border: none;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  background-color: #d8d8d873;
+  padding: 10px;
+}
+
+/* image */
+img {
+	max-width: 100%;
+	display: block;
+}
+
+.card-list {
+	width: 90%;
+	max-width: 330px;
+	margin-bottom: 10px;
+}
+
+.card-art {
+	background-color: #FFF;
+	box-shadow: 0 0 0 1px rgba(#000, .05), 0 20px 50px 0 rgba(#000, .1);
+	border-radius: 15px;
+	overflow: hidden;
+	padding: 1.25rem;
+	position: relative;
+	transition: .15s ease-in;
+	
+	&:hover, &:focus-within {
+		box-shadow: 0 0 0 2px #16C79A, 0 10px 60px 0 rgba(#000, .1);
+			transform: translatey(-5px);
+	}
+}
+
+.card-image {
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+.card-header {
+	margin-top: 1.5rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	a {
+		font-weight: 600;
+		font-size: 1.375rem;
+		line-height: 1.25;
+		padding-right: 1rem;
+		text-decoration: none;
+		color: inherit;
+		will-change: transform;
+		&:after {
+			content: "";
+			position: absolute;
+			left: 0;
+			top: 0;
+			right: 0;
+			bottom: 0;
+		}
+	}
+	
+	
+}
+
+.icon-button {
+	border: 0;
+	background-color: #eb0000;
+	border-radius: 50%;
+	width: 2.5rem;
+	height: 2.5rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-shrink: 0;
+	font-size: 1.25rem;
+	transition: .25s ease;
+	box-shadow: 0 0 0 1px rgba(#000, .05), 0 3px 8px 0 rgba(#000, .15);
+	z-index: 1;
+	cursor: pointer;
+	color: #565656;
+	
+	svg {
+		width: 1em;
+		height: 1em;
+	}
+	&:hover, &:focus {
+		background-color: #EC4646;
+		color: #FFF;
+	}
+}
+
+.card-footer {
+	margin-top: 15px;
+	border-top: 1px solid #ddd;
+	padding-top: 15px;
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.card-meta {	
+	display: flex;
+	align-items: center;
+	color: #787878;
+	&:first-child:after {
+		display: block;
+		content: "";
+		width: 4px;
+		height: 4px;
+		border-radius: 50%;
+		background-color: currentcolor;
+		margin-left: .75rem;
+		margin-right: .75rem;
+	}
+	svg {
+		flex-shrink: 0;
+		width: 1em;
+		height: 1em;
+		margin-right: .25em;
+	}
+}
+
+.user1{
+	margin: 0px;
+	padding-left: 7px;
+	padding-bottom: 4px;
+	font-weight: 600;
+}
+
+.tanggal1{
+	margin: 0px;
+	padding-left: 7px;
+	padding-top: 6px;
+	font-size: 13px;
+	font-weight: 400;
+}
+
+.hapusfoto{
+	border: none;
+	outline: none;
+	width: 30px;
+  height: 30px;
+	border-radius: 100px;
+	-webkit-border-radius: 100px;
+	-moz-border-radius: 100px;
+	-ms-border-radius: 100px;
+	-o-border-radius: 100px;
+	background-color: #ee2936;
+	color: white;
+	/* text-align: center; */
+  padding-left: 4px;
+	text-decoration: none;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+  /* scroll */
+
+
+#style-3::-webkit-scrollbar-track
+{
+    border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #F5F5F5;
+}
+
+#style-3::-webkit-scrollbar
+{
+	width: 8px;
+	background-color: #F5F5F5;
+}
+
+#style-3::-webkit-scrollbar-thumb
+{   
+    border-radius: 10px;
+	background-color: #8a8a8a;
+}
